@@ -50,3 +50,24 @@ button {
 button:hover {
   background-color: #0056b3;
 }
+.movie-results {
+  color: white;
+  background-color: transparent;
+  margin-top: 20px;
+}
+
+.movie-results h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.movie-results p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.movie-results div:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  padding: 10px;
+}
